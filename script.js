@@ -26,7 +26,7 @@ inputField.addEventListener('keyup', event => {
       console.log(gifs.data);
       
       // Get container for data
-      const videoContainer = document.querySelector('.swiper');
+      const videoContainer = document.querySelector('.swiper-wrapper');
       
       // Loop through the array of data
       gifs.data.forEach( gif => {
