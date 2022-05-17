@@ -31,7 +31,7 @@ inputField.addEventListener('keyup', event => {
           // template 
           const template  = `
           <div class="swiper-slide">
-            <video src="${gif.images.original.mp4}"></video>
+            <video src="${gif.images.original.mp4}" autoplay true></video>
           </div>
           `;
         
