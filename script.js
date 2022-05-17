@@ -1,3 +1,6 @@
+// Set Template
+const swiper = new Swiper(".swiper", {});
+
 /*** Variables ***/
 // API Key
 const API_KEY = 'vRgpxNRNKxyIlc1sk9lEifd6kDJZDK57';
