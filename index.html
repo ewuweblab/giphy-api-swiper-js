@@ -1,49 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giphy API + Swiper JS + PwA</title>
+  
+<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
 
-  <!-- PWA Meta Tags -->
-  <meta name="viewport" content="width=device-width; initial-scale=1; viewport-fit=cover">
-  <meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
-  
-  
-    <title>Search and Show with Giphy API</title>
-  
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  
 <!-- Stylesheet   -->
 <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
 <link rel="stylesheet" href="style.css"> 
   
 <!-- Scripts   -->
-<script defer src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script defer src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>  
 <script defer src="script.js"></script>
   
 </head>
 <body>
   
-  
-  <!-- Search -->
-  <form action="#">
-    <input class="search-input" placeholder="Whatcha looking for?">
-  </form>
     
-  <!-- Container for Gifs (videos)   -->
-<div class="swiper">
-  
-  <!-- Additional required wrapper -->
-  <div class="swiper-wrapper">
+  <!-- Main Container for Swiper JS  -->
+  <main class="swiper">
     
-    <!-- Dynamic Content -->
+    <!-- Wrapper for Swiper JS -->
+    <section class="swiper-wrapper">
+    
+      <!--Dynamically insert videos
+        <video class="swiper-slide" src="#"></video>
+      -->   
+      
+<!--       
+    <video class="swiper-slide" src="https://media.giphy.com/media/ODXnSFxLGXlOSNjl9y/giphy.mp4" autoplay loop></video>
 
-  </div>
-</div>
+    <video class="swiper-slide" src="https://media.giphy.com/media/psHxb69qBWjFMJ1lM0/giphy.mp4" autoplay loop></video>
+
+    <video class="swiper-slide" src="https://media.giphy.com/media/CWmQC59IC4HGYOdWJL/giphy.mp4" autoplay loop></video> -->
+
+      
+    </section>
+    
+  </main>
 
   
 </body>
