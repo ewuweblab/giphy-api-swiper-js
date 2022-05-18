@@ -17,7 +17,8 @@ searchTerm = 'coffee';
         console.log(gifs.data[2].images.original.mp4);
       
       // Get container for data
-      const videoContainer = document.querySelector('.swiper-wrapper');         
+      const videoContainer = document.querySelector('.swiper-wrapper');
+      const video = document.querySelector("video");      
       
        // Loop through the array of data
       gifs.data.forEach( gif => {
@@ -32,4 +33,11 @@ searchTerm = 'coffee';
         
       });
       
+      
+    swiper.on('click', function () {
+      video.play();
     });
+      
+
+    });
+
