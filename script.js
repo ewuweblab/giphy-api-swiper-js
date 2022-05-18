@@ -1,14 +1,8 @@
 // initialize Swiper
 const swiper = new Swiper(".swiper", {});
 
-// VARIABLES
-// API Key
-const API_KEY = 'vRgpxNRNKxyIlc1sk9lEifd6kDJZDK57';
-// Trending URL
-const url = `https://api.giphy.com/v1/gifs/trending?api_key=${API_KEY}`
-
 // Go fetch Giphy API data
-    fetch(url)
+    fetch('https://api.giphy.com/v1/gifs/trending?api_key=vRgpxNRNKxyIlc1sk9lEifd6kDJZDK57')
       .then( response => response.json() )
       .then( gifs => {
       
