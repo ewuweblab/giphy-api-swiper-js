@@ -2,7 +2,7 @@
 const swiper = new Swiper(".swiper", {});
 
 // Go fetch Giphy API data
-    fetch('https://api.giphy.com/v1/gifs/trending?api_key=vRgpxNRNKxyIlc1sk9lEifd6kDJZDK57')
+    fetch('https://api.giphy.com/v1/gifs/trending?api_key=vRgpxNRNKxyIlc1sk9lEifd6kDJZDK57&limit=50&rating=r')
       .then( response => response.json() )
       .then( gifs => {
       
