@@ -6,7 +6,7 @@ const swiper = new Swiper(".swiper", {});
 const API_KEY = 'vRgpxNRNKxyIlc1sk9lEifd6kDJZDK57';
 
 // Go fetch Giphy API data
-    fetch('https://api.giphy.com/v1/gifs/trending?API_KEY=${}&limit=50')
+    fetch('https://api.giphy.com/v1/gifs/trending?api_key=${API_KEY}&limit=50')
       .then( response => response.json() )
       .then( gifs => {
       
