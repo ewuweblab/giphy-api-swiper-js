@@ -4,11 +4,9 @@ const swiper = new Swiper(".swiper", {});
 // VARIABLES
 // API Key
 const API_KEY = 'vRgpxNRNKxyIlc1sk9lEifd6kDJZDK57';
-// Search term
-searchTerm = 'coffee';
 
 // Go fetch Giphy API data
-    fetch('https://api.giphy.com/v1/gifs/trending?api_key=vRgpxNRNKxyIlc1sk9lEifd6kDJZDK57&limit=25&rating=r')
+    fetch('https://api.giphy.com/v1/gifs/trending?API_KEY=${}&limit=50')
       .then( response => response.json() )
       .then( gifs => {
       
